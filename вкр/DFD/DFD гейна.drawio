@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="DFD" id="combined-level">
+    <mxGraphModel dx="683" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8TaouyK7lUDnwYau1nI_-4" value="&lt;span style=&quot;&quot;&gt;Источник данных&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="652.5" y="480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-5" value="&lt;span style=&quot;&quot;&gt;P1: Сбор данных&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="630" y="245" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(#6649d0, #ededed);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=default;textShadow=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-6" target="8TaouyK7lUDnwYau1nI_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-20" value="Обработанные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#ffffff, #ededed);fontColor=default;labelBorderColor=none;textShadow=0;" parent="8TaouyK7lUDnwYau1nI_-19" connectable="0" vertex="1">
+          <mxGeometry x="0.0182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-6" value="&lt;span style=&quot;&quot;&gt;P2: Обработка данных&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="295" y="245" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-7" value="&lt;span style=&quot;&quot;&gt;P3: Анализ данных&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="295" y="350" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#6649d0, #ededed);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=default;textShadow=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-9" target="8TaouyK7lUDnwYau1nI_-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-24" value="Отчет&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#ffffff, #ededed);fontColor=default;labelBorderColor=none;textShadow=0;" parent="8TaouyK7lUDnwYau1nI_-23" connectable="0" vertex="1">
+          <mxGeometry x="0.0449" y="-4" relative="1" as="geometry">
+            <mxPoint x="-9" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-9" value="&lt;span style=&quot;&quot;&gt;P4: Формирование отчета&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="295" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-10" value="&lt;span style=&quot;&quot;&gt;HR-менеджер&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;labelBackgroundColor=light-dark(#C230FF,#EDEDED);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=none;textShadow=0;gradientColor=none;fillColor=#C230FF;" parent="1" vertex="1">
+          <mxGeometry x="500" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-14" value="" style="group;labelBackgroundColor=none;fontColor=default;labelBorderColor=none;textShadow=0;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="510" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-11" value="D1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];labelBackgroundColor=none;fontColor=default;labelBorderColor=none;textShadow=0;" parent="8TaouyK7lUDnwYau1nI_-14" vertex="1">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-13" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Отчет&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;labelBorderColor=none;textShadow=0;" parent="8TaouyK7lUDnwYau1nI_-14" vertex="1">
+          <mxGeometry x="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-18" value="Сырые данные" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=light-dark(#ffffff, #ededed);fontColor=default;labelBorderColor=none;textShadow=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-5" target="8TaouyK7lUDnwYau1nI_-6" edge="1">
+          <mxGeometry x="0.0244" y="-20" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-21" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Результаты анализа&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-25;entryPerimeter=0;labelBackgroundColor=light-dark(#ffffff, #ededed);fontColor=default;labelBorderColor=none;textShadow=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-7" target="8TaouyK7lUDnwYau1nI_-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8TaouyK7lUDnwYau1nI_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#6649d0, #ededed);fontColor=light-dark(#ffffff, #ededed);labelBorderColor=default;textShadow=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-11" target="8TaouyK7lUDnwYau1nI_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-4Qr8HVM7EOy7qAL_HW1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.346;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=0.184;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672.5" y="470" as="sourcePoint" />
+            <mxPoint x="670.1700000000001" y="294.85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="671" y="478" />
+              <mxPoint x="670" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-4Qr8HVM7EOy7qAL_HW1-3" value="Аудиопоток" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="-4Qr8HVM7EOy7qAL_HW1-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.0712" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-4Qr8HVM7EOy7qAL_HW1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.71;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=0.876;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8TaouyK7lUDnwYau1nI_-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="469.9" as="sourcePoint" />
+            <mxPoint x="740.45" y="295" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="383" />
+              <mxPoint x="741" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-4Qr8HVM7EOy7qAL_HW1-4" value="Видеопоток" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="-4Qr8HVM7EOy7qAL_HW1-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.0916" y="-1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
